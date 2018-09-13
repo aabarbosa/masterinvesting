@@ -1,0 +1,26 @@
+{
+  "name": "stock-screener",
+  "version": "0.0.1",
+  "description": "A Stock Screener for true Investors",
+  "main": "index.js",
+  "scripts": {
+    "test": "run tst"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aabarbosa/masterinvesting.git"
+  },
+  "keywords": [
+    "value",
+    "investing",
+    "aabarbosa",
+    "stock",
+    "screener"
+  ],
+  "author": "aabarbosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aabarbosa/masterinvesting/issues"
+  },
+  "homepage": "https://github.com/aabarbosa/masterinvesting#readme"
+}
