@@ -1,0 +1,42 @@
+
+.navbar * {
+    display: inline;
+}
+
+.navbar {
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    background: #ffffff;
+    height: 36px;
+}
+
+.navbar_items {
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+.navbar_logo {
+    background: url(../img/logo_background.png) -80px -80px;
+    font-family: fantasy;
+    font-size: 30px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    letter-spacing: 1px;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
