@@ -1,0 +1,30 @@
+.nav-drawer-position {
+    top: 0;
+    left: 0;
+    background: black;
+    position: absolute;
+}
+
+.nav-drawer-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 24px;
+    width: 30px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-drawer-btn:focus {
+    outline: none;
+}
+
+
+.nav-drawer-btn__line {
+    width: 30px;
+    height: 2px;
+    background: rgb(0, 24, 236);
+}

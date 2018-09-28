@@ -1,8 +1,7 @@
 {
     "git.ignoreLimitWarning": true,
     "files.exclude": {
-        ".vscode": true,
-        "node_modules": true,
-        "package-lock.json": true
+        ".git": true,
+        "**/.git": false
     }
 }

@@ -1,0 +1,51 @@
+.navbar {
+    background-image: linear-gradient(-90deg, #24D7FF, #A477AC);
+    height: 56px;
+    position: relative;
+}
+
+.navbar * {
+    display: inline;
+}
+
+
+.nav-drawer {
+    top:0;
+    left:0;
+    background: #24D7FF;
+    position: absolute;
+}
+
+.navbar-logo {
+    background: url(../images/logo_background.png) -80px -80px;
+    font-family: fantasy;
+    font-size: 40px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    letter-spacing: 1px;
+    z-index: 400;
+    left: 42px;
+
+    position: absolute;
+}
+
+.navbar-menu-items {
+    left: 220;
+    position: absolute;
+}
+
+.navbar-menu-items a:hover {
+    background-color: #0f0f0f;
+    color: white;
+    padding: 16px 16px;
+
+}
+
+.navbar-menu-items a {    
+    background: rgb(177, 170, 170);
+    color: rgb(0, 0, 0);
+    padding: 10px 10px;
+    text-decoration: none;
+    font-family: Arial;
+}
