@@ -8,12 +8,12 @@ import { setName } from '../actions/userActions'
 
 import '../assets/css/components/application.css'
 
-const apiURL = 'https://api.iextrading.com/1.0';
+const apiURL = 'https://api.iextrading.com/1.0'
 
 const getData = (stock) => {
   return axios.get(`${apiURL}/stock/${stock}/quote?displayPercent=true`)
     .then( response => response.data )
-    .catch( err => console.log(err) );
+    .catch( err => console.log(err) )
 }
 
 
