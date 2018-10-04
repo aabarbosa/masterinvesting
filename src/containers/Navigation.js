@@ -1,27 +1,30 @@
 import React from 'react'
-import NavigationDrawer from '../components/NavigationDrawer'
+import DrawerButton from '../components/DrawerButton'
+import NavbarMenuItems from '../components/NavbarMenuItems'
 import '../assets/css/components/navigation/navigation.css'
 
 const Navigation = props => (
+    /*
+	constructor (props){
+		super(props)
+		this.state = {active:false}
+	}
+	click() {
+		this.setState({active: true})
+	}*/
+
     <div className="navigation-container">
     <nav className="navbar" >
         <div className="nav-drawer"> 
-            <NavigationDrawer/> 
+            <DrawerButton onClick={props.click}/> 
         </div>
         <div className="navbar-logo">
             <a href="/">Masterinvesting</a>
         </div>
-        <div className="navbar-menu-items">
-            <ul>	
-                <li className="navbar-menu"><a href="/">Home</a></li>
-                <li className="navbar-menu"><a href="/">News</a></li>
-                <li className="navbar-menu"><a href="/">Screener</a></li>
-            </ul>
-        </div>
+        <NavbarMenuItems/>
     </nav>
     </div>
 )
 
 export default Navigation
 
-//const MenuItem = props =>  <li class="menu_item">this.props.value</li>

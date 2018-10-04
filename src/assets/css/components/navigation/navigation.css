@@ -2,6 +2,7 @@
     background-image: linear-gradient(-90deg, #24D7FF, #A477AC);
     height: 56px;
     position: relative;
+    width: 100%;
 }
 
 .navbar * {
@@ -26,12 +27,13 @@
     letter-spacing: 1px;
     z-index: 400;
     left: 42px;
-
     position: absolute;
 }
 
 .navbar-menu-items {
-    left: 220;
+    right: 20px;
+    padding: 19px;
+    background: black;
     position: absolute;
 }
 
