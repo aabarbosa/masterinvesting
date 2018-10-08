@@ -6,12 +6,12 @@
 }
 
 html {
-    background: #c4090956
+    background: #b6030356
 }
 
 body {
-    background-image: linear-gradient(-90deg,
-     rgb(15, 18, 19), rgb(165, 11, 192));
+    background-image: linear-gradient(-900deg,
+     rgb(221, 222, 223), rgb(167, 167, 167));
 }
 
 /*-----------------------------------------*/

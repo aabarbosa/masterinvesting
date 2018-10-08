@@ -1,2 +1,3 @@
-# masterinvesting
-Hardcoding a Stock Screener
+# tickler finer
+
+I feel i should do it anyway.
