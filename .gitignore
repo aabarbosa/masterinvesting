@@ -5,7 +5,7 @@
 /developer
 
 # deploy
-/build
+#/build
 
 # misc
 *.log
