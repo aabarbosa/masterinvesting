@@ -1,3 +1,5 @@
-# tickler finer
+# Ticker Finder
 
-I feel i should do it anyway.
+A Stock Screener.
+
+This is a work in progress.

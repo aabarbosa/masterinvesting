@@ -33,7 +33,7 @@ class Application extends Component {
 						</div>
 					</main>
 
-					<small>Copyright 2018 by aabarbosa.</small>
+					<small>@2018 by aabarbosa.</small>
 				</body>
 				</html>
 	}

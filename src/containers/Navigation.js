@@ -34,14 +34,13 @@ class Navigation extends Component {
                     <div className='nav-drawer'> 
                         <DrawerButton onClick={
                             clicked => console.log('I\'ve been clicked')}/>
-                        <button onClick={this.toggleShow} type="button">Toggle Show</button>
                     </div>
                     <div className="navbar-logo">
                         <a href="/">TickerFinder</a>
                     </div>
                     <NavbarMainMenu className={this.state.isShow?'navbar-menu-items open': 'navbar-menu-items'}/>
                 </nav>
-
+                <button onClick={this.toggleShow} type="button">Toggle Show</button>
                 <Greeting greeting={greeting} isShow={this.state.isShow} />
                 
 
