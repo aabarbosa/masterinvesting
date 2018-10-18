@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/aabarbosa/ticker-finder/precache-manifest.69e20d30834cf31002fdc8539cdd766b.js"
+  "/aabarbosa/ticker-finder/precache-manifest.5bb405fe645e6f65a44d3f3c3eebcc44.js"
 );
 
 workbox.clientsClaim();
