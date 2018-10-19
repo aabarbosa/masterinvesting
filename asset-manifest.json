@@ -1,13 +1,13 @@
 {
-  "main.css": "/ticker-finder/static/css/main.70237bff.chunk.css",
-  "main.js": "/ticker-finder/static/js/main.54e017ab.chunk.js",
-  "main.js.map": "/ticker-finder/static/js/main.54e017ab.chunk.js.map",
-  "static/js/1.36fef697.chunk.js": "/ticker-finder/static/js/1.36fef697.chunk.js",
-  "static/js/1.36fef697.chunk.js.map": "/ticker-finder/static/js/1.36fef697.chunk.js.map",
-  "runtime~main.js": "/ticker-finder/static/js/runtime~main.8b35460b.js",
-  "runtime~main.js.map": "/ticker-finder/static/js/runtime~main.8b35460b.js.map",
-  "static/css/main.70237bff.chunk.css.map": "/ticker-finder/static/css/main.70237bff.chunk.css.map",
-  "index.html": "/ticker-finder/index.html",
-  "precache-manifest.8e9872c826f4d09bbc0d5c1e28b2d98f.js": "/ticker-finder/precache-manifest.8e9872c826f4d09bbc0d5c1e28b2d98f.js",
-  "service-worker.js": "/ticker-finder/service-worker.js"
+  "main.css": "/aabarbosa/ticker-finder/static/css/main.088d4786.chunk.css",
+  "main.js": "/aabarbosa/ticker-finder/static/js/main.cfba0035.chunk.js",
+  "main.js.map": "/aabarbosa/ticker-finder/static/js/main.cfba0035.chunk.js.map",
+  "static/js/1.323ac91a.chunk.js": "/aabarbosa/ticker-finder/static/js/1.323ac91a.chunk.js",
+  "static/js/1.323ac91a.chunk.js.map": "/aabarbosa/ticker-finder/static/js/1.323ac91a.chunk.js.map",
+  "runtime~main.js": "/aabarbosa/ticker-finder/static/js/runtime~main.3023d907.js",
+  "runtime~main.js.map": "/aabarbosa/ticker-finder/static/js/runtime~main.3023d907.js.map",
+  "static/css/main.088d4786.chunk.css.map": "/aabarbosa/ticker-finder/static/css/main.088d4786.chunk.css.map",
+  "index.html": "/aabarbosa/ticker-finder/index.html",
+  "precache-manifest.adedffa8e99345ca91eb7a90f8fad27f.js": "/aabarbosa/ticker-finder/precache-manifest.adedffa8e99345ca91eb7a90f8fad27f.js",
+  "service-worker.js": "/aabarbosa/ticker-finder/service-worker.js"
 }
