@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/aabarbosa/ticker-finder/precache-manifest.adedffa8e99345ca91eb7a90f8fad27f.js"
+  "/ticker-finder/precache-manifest.65591754505de96a892eae3b187a6e00.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/aabarbosa/ticker-finder/index.html", {
+workbox.routing.registerNavigationRoute("/ticker-finder/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
