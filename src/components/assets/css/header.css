@@ -1,21 +1,4 @@
-.navbar {
-    background-image: linear-gradient(-900deg,
-    rgb(16, 63, 78), rgb(2, 24, 31));
-    height: 56px;
-    position: relative;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    z-index: 1000; 
-}
-
-.nav-drawer {
-    top:10;
-    left:0;
-    background: rgb(36, 44, 0);
-    position: absolute;
-    z-index: 2100;
-}
+/*LOGO*/
 
 .navbar-logo {
     background: url(../images/logo_background.png) -80px -80px;
@@ -34,10 +17,20 @@
     text-decoration: none;
 }
 
-.navbar * {
-    display: inline;
+
+/* Navbar width, background, etecetera*/
+.navbar {
+    background-image: linear-gradient(-900deg,
+    rgb(16, 63, 78), rgb(2, 24, 31));
+    height: 56px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 1000; 
 }
 
+/*
 @media (max-width: 500px) {
     .navbar-menu-items .open {
         text-decoration: none;
@@ -52,19 +45,24 @@
         left: 0;
     }
 }
+*/
 
-.navbar-menu-items {
+/*TODO: This is duplicated and not inline. Do not force the navbar's content to be inline
+Their components must  behave as it should do. Who knows what display itself?
+Of course, the proper component does the required behavior**/
+
+.navbar-menu * {
     right: 20px;
     background: none;
     position: absolute;
+    display: inline
 }
 
-.navbar-menu-items a:hover {
+.navbar-menu a:hover {
     background-color: #0f0f0f;
     color: white;
 }
-
-.navbar-menu-items a {    
+.navbar-menu a {    
     background: rgb(177, 170, 170);
     color: rgb(0, 0, 0);
     padding: 10px 10px;

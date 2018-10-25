@@ -23,6 +23,11 @@ const userReducer = (state = {
                 age: action.payload
             }
             break
+        default:
+            state = {
+                name: 'Default',
+                age: 100
+            }
     }
     return state
 }

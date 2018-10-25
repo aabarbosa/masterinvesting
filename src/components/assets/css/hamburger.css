@@ -1,11 +1,15 @@
-.nav-drawer-position {
-    top: 0;
-    left: 0;
-    background: black;
-    position: absolute;
+.nav-drawer-scope {
+    text-decoration: none; /* TODO: Make the topic mark disapear */
 }
 
-.nav-drawer-btn {
+.drawer-btn__line {
+    width: 30px;
+    height: 2px;
+    padding: 1px;
+    background: rgb(77, 143, 68);
+}
+
+.drawer-btn {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -18,13 +22,6 @@
     box-sizing: border-box;
 }
 
-.nav-drawer-btn:focus {
+.drawer-btn:focus {
     outline: none;
-}
-
-
-.nav-drawer-btn__line {
-    width: 30px;
-    height: 2px;
-    background: rgb(0, 24, 236);
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const NavbarMainMenu = props => {
+const NavMenu = props => {
     return <div className="navbar-menu-items">
                 <ul>
                     <li className="navbar-menu"><a href="/">Home</a></li>
@@ -10,4 +10,4 @@ const NavbarMainMenu = props => {
             </div>
 }
 
-export default NavbarMainMenu
+export default NavMenu
