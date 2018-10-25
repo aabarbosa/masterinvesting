@@ -1,7 +1,7 @@
 {
   "name": "ticker-finder",
   "version": "1.0.0",
-  "homepage": "https://aabarbosa.github.io/aabarbosa/ticker-finder",
+  "homepage": "https://aabarbosa.github.io/ticker-finder",
   "description": "A Stock Screener for true investors.",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -b origin -d build "
+    "deploy": "gh-pages -d build "
   },
   "repository": {
     "type": "git",
