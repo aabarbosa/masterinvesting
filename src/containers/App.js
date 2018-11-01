@@ -1,29 +1,30 @@
 import React, { Component } from 'react'
-import {connect} from 'react-redux'
 import Header from './Header'
-import { User } from '../components/User'
-import { setName } from '../actions/userActions'
 import '../components/assets/default/formatter.css'
-//import Foo from '../data/fetch'
+import './App.css'
+import router from '../routes/Routes'
+import Dashboard from '../components/Dashboard/Dashboard'
+import { withRouter } from 'react-router-dom'
+
 
 class App extends Component {
+	constructor(props) {
+		super(props)
+		this.state = {
+			picture: ''
+		}
+	}
+		
 	render() {
-		return	<div className="app"> {/*apply the formatter*/}
+		return	(
+				<div className="app"> {/*apply the formatter*/}
 					<Header logoTitle = "TickerFinder"/>
-					<main className="application-main">
-						
-						<User username={this.props.user.name} changeUsername={() => this.props.setName('data')}/>
-					</main>
-
-					<small>@2018 by aabarbosa.</small>
-s				</div>
+					<Dashboard/> 	{/*pathname removed*/}
+                        { router }
+                    
+				</div>
+			)
 	}
 }
 
-const mapStateToProps = (state) => {
-	return {user: state.user}}
-  
-const mapDispatchToProps = (dispatch) => {
-	return {setName: (name) => {dispatch(setName(name))}}}
-
-export default connect(mapStateToProps, mapDispatchToProps)(App)
+export default withRouter(App)

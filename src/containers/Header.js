@@ -3,10 +3,14 @@ import React, { Component } from 'react'
 import Hamburger from '../components/navbar/Hamburger'
 import NavMenu from '../components/navbar/NavMenu'
 import SideMenu from '../components/navbar/SideMenu'
+
+/*test*/
+import Search from '../components/Search/Search'
+
 /* css */
 import '../components/assets/css/header.css'
 import '../components/assets/css/backdrop.css'
-/* GUI*/
+/* GUI components */
 import sideMenuClose from '../components/navbar/backdrop'
 
 /*Header deals with navigation and uses <routes> for navs and menus*/
@@ -15,7 +19,8 @@ class Header extends Component {
         super(props)
         this.state = {
             headerTitle: this.props.logoTitle,
-            sideMenuOpen: false
+            sideMenuOpen: false,
+            data: []
         }
     }    
 
@@ -30,16 +35,22 @@ class Header extends Component {
 
         return  <div className="header-container-scope">
                 <nav className="navbar" >
+
+        
                     <div className='nav-drawer-scope'> 
                         <Hamburger click={this.hamburgerClick}/>
                         <SideMenu show={this.state.sideMenuOpen}/> 
                             {backdrop}
                     </div> 
-                    <NavMenu/>
+                    <NavMenu user = {this.props.user} picture = {this.state.picture}/>
                     {/*THE LOGO*/}
                     <div className="navbar-logo">
                         <a href="/">{this.state.headerTitle}</a> {/*TODO: use routes*/}
                     </div>
+
+                    <form className="form-inline mt-2 mt-md-0 ml-5">
+                        <Search />
+                    </form>
                 </nav>
                 </div>
     }

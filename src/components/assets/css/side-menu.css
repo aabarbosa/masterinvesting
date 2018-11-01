@@ -10,7 +10,7 @@
  .side-menu {
      top: 100;
       left: 0;
-      padding: 100px;
+      padding: 10px;
       background: rgb(146, 23, 23);
       position: absolute;
   }

@@ -4,6 +4,7 @@
 <head id="header">
   <meta charset="utf-8">
   <meta name="author" content="aabarbosa">
+  <!--Bootstrap-->
   <title>Ticker Finder - A Stock Screener for Investors</title>
 
   <script type="text/javascript">
@@ -19,7 +20,7 @@
     // the correct url will be waiting in the browser's history for
     // the single page app to route accordingly.
     (function(l) {
-    const nonHomeUrls = ['/test'];
+    const nonHomeUrls = ['/'];
     for (let i = 0; i < nonHomeUrls.length; i++) {
       const urlRegex = new RegExp(nonHomeUrls[i], 'i');
       const verifyUrl = urlRegex.test(l.pathname);
@@ -49,7 +50,14 @@
 <body>
   <div id="root"></div>
   <noscript>noscript</noscript>
-  <footer>footer</footer>
+  
+  <!-- Bootstrap Scripts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+  <!-- Algolia Search -->
+  <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
 </body >
 
 </html >
