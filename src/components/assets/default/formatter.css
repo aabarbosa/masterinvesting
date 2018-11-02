@@ -1,0 +1,25 @@
+
+/*---------------formatter---------------*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+    background: #b6030356
+}
+
+body {
+    background-image: linear-gradient(-900deg,
+     rgb(221, 222, 223), rgb(167, 167, 167));
+}
+
+/*-----------------------------------------*/
+
+
+.application-main {
+    background-color: rgb(85, 5, 5);
+    position: relative;
+    top:100px;
+    width:100%;
+}
